@@ -1,7 +1,6 @@
 import math
 import os
 def combo():
-	tmp=1
 	first = (math.ceil(resLoc)+5)%40
 	second = []
 	third = []
