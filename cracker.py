@@ -18,7 +18,6 @@ def combo():
 		tmp = ((mod+2)%4)+(4*i)
 		if (ty+2)%40 != tmp and (ty-2)%40 != tmp:
 			second.append(tmp) 
-	second.append(tmp)
 
 	os.system('cls' if os.name =='nt' else clear)
 	print('======================================')
@@ -27,7 +26,7 @@ def combo():
 	print('Your first digit is: '+str(first)+'\n')
 	print('Your second digits are: ')
 	print(*second)
-	print('\n')
+	print('')
 	print('Your third digit is: '+str(ty))
 
 firstDigit = int(input('Enter first digit: '))
