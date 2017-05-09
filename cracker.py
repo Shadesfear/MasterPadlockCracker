@@ -14,6 +14,13 @@ def combo():
 			third.append((10*i)+secondDigit)
 
 	ty = int(input('Is the third digit ' + str(third[0]) + ' or is it ' + str(third[1])+' ?:'))
+	
+	while ty != third[0] or ty != third[1]:
+		if ty == third[0] or ty == third[1]:
+			break
+		else:
+			ty =int(input('Please enter either ' + str(third[0]) + ' or ' + str(third[1])+' :'))
+			
 	for i in range(0,10):
 		tmp = ((mod+2)%4)+(4*i)
 		if (ty+2)%40 != tmp and (ty-2)%40 != tmp:
