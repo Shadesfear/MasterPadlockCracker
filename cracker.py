@@ -14,7 +14,7 @@ def combo():
 			third.append((10*i)+secondDigit)
 
 	ty = int(input('Is the third digit ' + str(third[0]) + ' or is it ' + str(third[1])+' ?:'))
-	
+
 	while ty != third[0] or ty != third[1]:
 		if ty == third[0] or ty == third[1]:
 			break
@@ -36,9 +36,15 @@ def combo():
 	print('')
 	print('Your third digit is: '+str(ty))
 
-firstDigit = int(input('Enter first digit: '))
-secondDigit = int(input('Enter second Digit: '))
-resLoc = int(input('Enter resistant location: '))
+while True:
+	try:
+		firstDigit = int(input('Enter first digit: '))
+		secondDigit = int(input('Enter second Digit: '))
+		resLoc = int(input('Enter resistant location: '))
+		break
+	except ValueError:
+		print('Thats not a number, try again')
+
 
 if firstDigit and secondDigit and resLoc:
 	combo()
