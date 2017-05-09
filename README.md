@@ -1,6 +1,6 @@
-##This is a simple script used to crack any master combo lock, it uses a teqnique created by Samy Kamkar
+## This is a simple script used to crack any master combo lock, it uses a teqnique created by Samy Kamkar
 
-##This guide on how to use this script is taken samy.pl/master/master.html and all credit goes to him
+## This guide on how to use this script is taken samy.pl/master/master.html and all credit goes to him
 
 1. Set the dial to 0.
 2. Apply full pressure upward on the shackle as if trying to open it.
@@ -11,8 +11,6 @@
 7. Rotate dial to the right until you feel resistance. Rotate the dial to the right several more times to ensure you're feeling resistance at the same exact location.
 8. Enter this number in Resistant Location. If the resistance begins at a half number, such as 14.5, enter 14.5.
 9. Click Find Combos!
-
-
 10. Set the dial to the first possibility for the Third Digit.
 11. Apply full pressure upward on the shackle as if trying to open it.
 12. Turn the dial and note how much give there is.
